@@ -1,12 +1,12 @@
 from openupgradelib import openupgrade
 
 _fields_renames = [
-    (
-        "account.payment.term",--
-        "account_payment_term",
-        "diario_por_defecto",
-        "default_sale_journal_id",
-    ),
+    # (
+    #     "account.payment.term",
+    #     "account_payment_term",
+    #     "diario_por_defecto",
+    #     "default_sale_journal_id",
+    # ),
     (
         "fleet.vehicle",
         "fleet_vehicle",
@@ -19,12 +19,12 @@ _fields_renames = [
         "duracion_teorica_total",
         "estimated_duration",
     ),
-    (
-        "sale.order",
-        "sale_order",
-        "diario_facturacion",--
-        "invoicing_journal_id",
-    ),
+    # (
+    #     "sale.order",
+    #     "sale_order",
+    #     "diario_facturacion",
+    #     "invoicing_journal_id",
+    # ),
     (
         "sale.order",
         "sale_order",
