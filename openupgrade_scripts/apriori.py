@@ -74,8 +74,7 @@ renamed_modules = {
     "se7_pg_adaptacion_proyectos": "se7_pg_yachting",
     "se7_pg_yacht": "se7_boat",
     "se7_pg_yacht_area": "se7_boat_area",
-    "se7_sale_management_equips" : "se7_equipment_maintenance",
-    "se7_databases": "se7_database",
+    "se7_sale_management_equips": "se7_equipment_maintenance",
 }
 
 # Merged modules contain a mapping from old module names to other,
@@ -166,6 +165,8 @@ merged_modules = {
     "se7_partner_sql_code": "se7_rosello_solar",
     "se7_rs_project_onedrive": "se7_rosello_solar",
     "se7_pg_impuestos_tpa": "se7_pg_yachting",
+    "se7_databases": "se7_database",
+    "se7_databases_token": "se7_database",
 }
 
 # only used here for upgrade_analysis
@@ -195,11 +196,11 @@ renamed_models = {
     "yacht.yacht": "boat.boat",
     "yacht.area": "boat.area",
 
-    #databases
-    "ir.database":"database.database",
-    "ir.database.module":"database.module",
-    "ir.database.user":"database.user",
-    "ir.server":"database.server",
+    # databases
+    "ir.database": "database.database",
+    "ir.database.module": "database.module",
+    "ir.database.user": "database.user",
+    "ir.server": "database.server",
 
 }
 

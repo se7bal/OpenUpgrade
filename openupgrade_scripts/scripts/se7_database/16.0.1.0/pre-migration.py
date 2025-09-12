@@ -19,8 +19,7 @@ _models_renames = [
     )
 ]
 _tables_renames = [
-
-(
+    (
         "ir_database",
         "database_database"
     ),
@@ -36,8 +35,6 @@ _tables_renames = [
         "ir_server",
         "database_server"
     )
-
-
 ]
 
 _fields_renames = [
@@ -68,11 +65,8 @@ _fields_renames = [
 ]
 
 
-
-
 @openupgrade.migrate()
 def migrate(env, version):
     openupgrade.rename_fields(env, _fields_renames)
     openupgrade.rename_models(env.cr, _models_renames)
     openupgrade.rename_tables(env.cr, _tables_renames)
-
