@@ -92,6 +92,18 @@ _fields_renames = [
         "expected_duration",
     ),
     (
+        "sale.order",
+        "sale_order",
+        "hora_inicio",
+        "start_time",
+    ),
+    (
+        "sale.order",
+        "sale_order",
+        "hora_fin",
+        "end_time",
+    ),
+    (
         "sale.order.line",
         "sale_order_line",
         "duracion_teorica",
@@ -108,6 +120,24 @@ _fields_renames = [
         "stock_picking",
         "texto_garantia",
         "warranty_text",
+    ),
+    (
+        "saler.order.horarioatencion",
+        "saler_order_horarioatencion",
+        "orden",
+        "sequence",
+    ),
+    (
+        "saler.order.horarioatencion",
+        "saler_order_horarioatencion",
+        "hora_inicio",
+        "start_time",
+    ),
+    (
+        "saler.order.horarioatencion",
+        "saler_order_horarioatencion",
+        "hora_fin",
+        "end_time",
     ),
 ]
 _models_renames = [("saler.order.horarioatencion", "sale.order.attention.schedule")]
