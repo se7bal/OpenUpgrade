@@ -167,6 +167,8 @@ merged_modules = {
     "se7_pg_impuestos_tpa": "se7_pg_yachting",
     "se7_databases": "se7_database",
     "se7_databases_token": "se7_database",
+    "sale_fleet": "se7_mf",
+    "portal_picking_customer_signature": "se7_mf",
 }
 
 # only used here for upgrade_analysis
