@@ -62,6 +62,8 @@ renamed_modules = {
     "l10n_it_account_balance_eu": "l10n_it_financial_statement_eu",
     "l10n_it_ricevute_bancarie": "l10n_it_riba",
     # OCA/...
+
+    
     # SE7
     "se7_account_journal_fields_traking": "se7_account_journal_fields_tracking",
     "se7_project_form_partner": "se7_project_view_form_simplified_partner",
