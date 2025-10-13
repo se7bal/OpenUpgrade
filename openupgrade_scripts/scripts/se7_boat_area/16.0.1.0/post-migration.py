@@ -7,3 +7,11 @@ def migrate(env, version):
         env.cr,
         [("se7_pg_yacht_area", "se7_boat_area")],
     )
+
+    openupgrade.logged_query(
+        env.cr,
+        """
+        update account_move_line
+        set boat_area_id = (select yacht_area from account_invoice_line where id = old_invoice_line_id);
+        """
+    )
