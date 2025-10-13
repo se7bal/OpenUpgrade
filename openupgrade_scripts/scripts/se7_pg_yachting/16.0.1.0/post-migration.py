@@ -13,8 +13,6 @@ def migrate(env, version):
         update account_move_line
         set boat_project_id = (select project_id from account_invoice_line where id = old_invoice_line_id);
 
-        update account_move_line
-        set boat_area_id = (select yacht_area from account_invoice_line where id = old_invoice_line_id);
 
         update account_move_line
         set billable_to_customer = (select billable_to_customer
