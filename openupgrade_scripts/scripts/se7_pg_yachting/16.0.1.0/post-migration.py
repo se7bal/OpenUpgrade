@@ -70,7 +70,7 @@ def migrate(env, version):
                       join account_move_line pl on ot.purchase_line_id = pl.old_invoice_line_id);
 
 
-        insert into boat_boat_area_rel SELECT yacht_area_yacht_yacht_rel.yacht_area_id, yacht_area_yacht_yacht_rel.yacht_yacht_id FROM public.yacht_area_yacht_yacht_rel;
+       
 
         update account_move set notes = (select notes from account_invoice where id = old_invoice_id);
             
