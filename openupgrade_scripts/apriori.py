@@ -55,6 +55,11 @@ renamed_modules = {
     # OCA/web
     "web_widget_product_label_section_and_note": "web_widget_product_label_section_and_note_name_visibility",  # noqa: E501
     # OCA/...
+    # se7
+    "se7_advanced_timesheet": "se7_hr_timesheet_systray",
+    "se7_advanced_timesheet_helpdesk": "se7_hr_timesheet_systray_helpdesk",
+    "se7_base_direct_print": "se7_direct_print",
+    "se7_improved_signature_widget": "se7_web_widget_signature_extra_fields",
 }
 
 # Merged modules contain a mapping from old module names to other,
@@ -107,6 +112,9 @@ merged_modules = {
     # OCA/stock-logistics-workflow
     "stock_move_line_auto_fill": "stock",
     # OCA/...
+    # se7
+    "se7_module_log": "se7_module_usability",
+    "se7_module_to_upgrade": "se7_module_usability",
 }
 
 # only used here for upgrade_analysis
