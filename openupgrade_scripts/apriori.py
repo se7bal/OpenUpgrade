@@ -17,6 +17,8 @@ renamed_modules = {
     "helpdesk_sale_coupon": "helpdesk_sale_loyalty",
     "sale_coupon_taxcloud": "sale_loyalty_taxcloud",
     "sale_coupon_taxcloud_delivery": "sale_loyalty_taxcloud_delivery",
+    # OCA/account-analytic
+    "mrp_analytic": "mrp_stock_analytic",
     # OCA/account-reconcile
     "account_reconciliation_widget": "account_reconcile_oca",
     # OCA/bank-statement-import
@@ -36,6 +38,7 @@ renamed_modules = {
     "res_partner_category_multi_company": "partner_category_multi_company",
     # OCA/pos
     "pos_cashback_warning": "pos_cashback",
+    "pos_sale_order_load": "pos_picking_load",
     # OCA/product-attribute
     "product_packaging_type": "product_packaging_level",
     # OCA/project
@@ -62,7 +65,7 @@ renamed_modules = {
     # OCA/l10n-italy
     "assets_management": "l10n_it_asset_management",
     "l10n_it_account_balance_eu": "l10n_it_financial_statement_eu",
-    "l10n_it_ricevute_bancarie": "l10n_it_riba",
+    "l10n_it_ricevute_bancarie": "l10n_it_riba_oca",
     # OCA/...
 
     
